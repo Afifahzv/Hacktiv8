@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--judul-->
+    <title>challenge part 2</title>
+    <!--style this page-->
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+
+  <body>
+    <!--bagian navbar-->
+    <nav>
+      <ul>
+        <li><a href="#">My Inventory</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+
+    <!--card star-->
+    <div class="container">
+      <img src="/challenge 1/images/user.jpeg" alt="" />
+      <div id="content">
+        <h1>Nama Anda</h1>
+        <p>Front end designer</p>
+        <button class="button">Kontak</button>
+        <button class="button button2">Resume</button>
+      </div>
+
+      <!-- right -->
+      <div class="right">
+        <div class="right-title">
+          <p>Availability</p>
+          <p>Usia</p>
+          <p>Lokasi</p>
+          <p>Pengalaman</p>
+          <p>Email</p>
+        </div>
+        <div>
+          <p>Full Time</p>
+          <p>17</p>
+          <p>jakarta, Indonesia</p>
+          <p>2</p>
+          <p>Developer@gmail.com</p>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+    <!--card end-->
+
+    <!--form star-->
+    <div id="form">
+      <form action="/action_page.php">
+        <label for="name"><b>Nama</b></label>
+        <input type="text" id="name" name="firstname" placeholder="" />
+
+        <label for="Role"><b>Role</b></label>
+        <input type="text" id="Role" name="Role" placeholder="" />
+
+        <label for="Availabillity"><b>Availabillity</b></label>
+        <input
+          type="text"
+          id="Availabillity"
+          name="Availabillity"
+          placeholder=""
+        />
+
+        <label for="Age"><b>Age</b></label>
+        <input type="text" id="Age" name="Age" placeholder="" />
+
+        <label for="country"><b>Lokasi</b></label>
+        <input type="text" id="country" name="country" placeholder="" />
+
+        <label for="Years"><b>Years Experience</b></label>
+        <input type="text" id="Years" name="Years" placeholder="" />
+
+        <label for="Email"><b>Email</b></label>
+        <input type="text" id="Email" name="Email" placeholder="" />
+
+        <input type="submit" style="font-weight: bold" value="Submit" />
+      </form>
+      <!--form end-->
+    </div>
+  </body>
+</html>
