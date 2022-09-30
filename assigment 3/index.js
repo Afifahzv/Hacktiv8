@@ -14,13 +14,13 @@ button.addEventListener("click", async () => {
 
   const BASE_URL = `https://covid-193.p.rapidapi.com/history?country=${input.value}&day=${today}`;
 
-  const options = {
-    method: "GET",
-    headers: {
-      "X-RapidAPI-Key": "1becca8e72mshccfc4f409adfd6dp1ff2e8jsn0b91a7d00bca",
-      "X-RapidAPI-Host": "covid-193.p.rapidapi.com",
-    },
-  };
+//   const options = {
+//     method: "GET",
+//     headers: {
+//       "X-RapidAPI-Key": "1becca8e72mshccfc4f409adfd6dp1ff2e8jsn0b91a7d00bca",
+//       "X-RapidAPI-Host": "covid-193.p.rapidapi.com",
+//     },
+//   };
 
   const response = await fetch(BASE_URL, options);
   const data = await response.json();
